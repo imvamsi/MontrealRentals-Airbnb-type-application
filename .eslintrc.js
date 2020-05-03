@@ -20,8 +20,9 @@ module.exports = {
     ecmaVersion: 2018,
   },
   plugins: [
-    //'react',
-    'prettier'
+    'react',
+    'prettier',
+    'react-hooks'
   ],
   rules: {
     'no-unused-vars': 'warn',
